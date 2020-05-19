@@ -2,6 +2,9 @@
 # DO NOT EDIT MANUALLY
 # This file is being included by "Makefile.common"
 
+# base module is lost somewhere
+MODULES += base
+
 ifdef ENABLE_SCUMM
 DEFINES += -DENABLE_SCUMM=$(ENABLE_SCUMM)
 MODULES += engines/scumm
